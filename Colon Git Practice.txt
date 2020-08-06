@@ -1,0 +1,407 @@
+pecol@DESKTOP-477VM7L MINGW64 /c/Python/Week 8/git_practice (master)
+$ git init git_practice$
+Reinitialized existing Git repository in C:/Python/Week 8/git_practice/.git/
+
+pecol@DESKTOP-477VM7L MINGW64 /c/Python/Week 8/git_practice (master)
+$ cd git_practice$
+
+pecol@DESKTOP-477VM7L MINGW64 /c/Python/Week 8/git_practice/git_practice$ (master)
+$ git_practice$ git init
+bash: git_practice$: command not found
+
+pecol@DESKTOP-477VM7L MINGW64 /c/Python/Week 8/git_practice/git_practice$ (master)
+$ git add hello_git.py
+fatal: pathspec 'hello_git.py' did not match any files
+
+pecol@DESKTOP-477VM7L MINGW64 /c/Python/Week 8/git_practice/git_practice$ (master)
+$ git add hello_git.txt
+fatal: pathspec 'hello_git.txt' did not match any files
+
+pecol@DESKTOP-477VM7L MINGW64 /c/Python/Week 8/git_practice/git_practice$ (master)
+$ git add hello_git.py
+
+pecol@DESKTOP-477VM7L MINGW64 /c/Python/Week 8/git_practice/git_practice$ (master)
+$ git commit -m"My first commit"
+[master 68e9f4c] My first commit
+ 1 file changed, 1 insertion(+)
+ create mode 100644 git_practice$/hello_git.py
+
+pecol@DESKTOP-477VM7L MINGW64 /c/Python/Week 8/git_practice/git_practice$ (master)
+$ git_practice$ git inti
+bash: git_practice$: command not found
+
+pecol@DESKTOP-477VM7L MINGW64 /c/Python/Week 8/git_practice/git_practice$ (master)
+$ git inti
+git: 'inti' is not a git command. See 'git --help'.
+
+The most similar command is
+        init
+
+pecol@DESKTOP-477VM7L MINGW64 /c/Python/Week 8/git_practice/git_practice$ (master)
+$ got init .gitignore
+bash: got: command not found
+
+pecol@DESKTOP-477VM7L MINGW64 /c/Python/Week 8/git_practice/git_practice$ (master)
+$ git init .gitignore
+Reinitialized existing Git repository in C:/Python/Week 8/git_practice/.git/
+
+pecol@DESKTOP-477VM7L MINGW64 /c/Python/Week 8/git_practice/git_practice$ (master)
+$ cd .gitignore
+
+pecol@DESKTOP-477VM7L MINGW64 /c/Python/Week 8/git_practice/git_practice$/.gitignore (master)
+$ cd git_practice
+bash: cd: git_practice: No such file or directory
+
+pecol@DESKTOP-477VM7L MINGW64 /c/Python/Week 8/git_practice/git_practice$/.gitignore (master)
+$ git_practice$ git init
+bash: git_practice$: command not found
+
+pecol@DESKTOP-477VM7L MINGW64 /c/Python/Week 8/git_practice/git_practice$/.gitignore (master)
+$ git init
+Reinitialized existing Git repository in C:/Python/Week 8/git_practice/.git/
+
+pecol@DESKTOP-477VM7L MINGW64 /c/Python/Week 8/git_practice/git_practice$/.gitignore (master)
+$ git status
+warning: unable to access 'git_practice$/.gitignore': Permission denied
+On branch master
+Changes not staged for commit:
+  (use "git add/rm <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        deleted:    ../../hello_git.py
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        ../../.gitignore
+        ../../git_practice.sublime-workspace
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+pecol@DESKTOP-477VM7L MINGW64 /c/Python/Week 8/git_practice/git_practice$/.gitignore (master)
+$ git add .
+warning: unable to access 'git_practice$/.gitignore': Permission denied
+
+pecol@DESKTOP-477VM7L MINGW64 /c/Python/Week 8/git_practice/git_practice$/.gitignore (master)
+$ git status
+warning: unable to access 'git_practice$/.gitignore': Permission denied
+On branch master
+Changes not staged for commit:
+  (use "git add/rm <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        deleted:    ../../hello_git.py
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        ../../.gitignore
+        ../../git_practice.sublime-workspace
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+pecol@DESKTOP-477VM7L MINGW64 /c/Python/Week 8/git_practice/git_practice$/.gitignore (master)
+$ git commit  -m "Started project."
+warning: unable to access 'git_practice$/.gitignore': Permission denied
+On branch master
+Changes not staged for commit:
+  (use "git add/rm <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        deleted:    ../../hello_git.py
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        ../../.gitignore
+        ../../git_practice.sublime-workspace
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+pecol@DESKTOP-477VM7L MINGW64 /c/Python/Week 8/git_practice/git_practice$/.gitignore (master)
+$ git status
+warning: unable to access 'git_practice$/.gitignore': Permission denied
+On branch master
+Changes not staged for commit:
+  (use "git add/rm <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        deleted:    ../../hello_git.py
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        ../../.gitignore
+        ../../git_practice.sublime-workspace
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+pecol@DESKTOP-477VM7L MINGW64 /c/Python/Week 8/git_practice/git_practice$/.gitignore (master)
+$ git log
+commit 68e9f4c417c9bb4af11a0d1b7b37a0ddcb586ba3 (HEAD -> master)
+Author: pecolon64 <pecolon64@example.com>
+Date:   Wed Jul 29 21:35:03 2020 -0500
+
+    My first commit
+
+commit da49ba65048db1eb35fb94bef2e7d7b64bb5b25f
+Author: pecolon64 <pecolon64@example.com>
+Date:   Wed Jul 29 21:06:38 2020 -0500
+
+    git_practice$ git init
+    Initialized empty Git repository in git_practice/.git/
+    git_practice$
+
+commit 975db0722201c9ef220dec210d3a1dced730aadf
+Author: pecolon64 <pecolon64@example.com>
+Date:   Sun Jul 26 18:32:45 2020 -0500
+
+    git_ practice$ git init
+    Initialized empty Git repository in git_practice/.git/
+    git_practice$
+
+pecol@DESKTOP-477VM7L MINGW64 /c/Python/Week 8/git_practice/git_practice$/.gitignore (master)
+$ git status
+warning: unable to access 'git_practice$/.gitignore': Permission denied
+On branch master
+Changes not staged for commit:
+  (use "git add/rm <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   ../hello_git.py
+        deleted:    ../../hello_git.py
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        ../../.gitignore
+        ../../git_practice.sublime-workspace
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+pecol@DESKTOP-477VM7L MINGW64 /c/Python/Week 8/git_practice/git_practice$/.gitignore (master)
+$ git commit -am "Extended greeting."
+[master ad45bd2] Extended greeting.
+ 2 files changed, 2 insertions(+), 2 deletions(-)
+ delete mode 100644 hello_git.py
+
+pecol@DESKTOP-477VM7L MINGW64 /c/Python/Week 8/git_practice/git_practice$/.gitignore (master)
+$ git status
+warning: unable to access 'git_practice$/.gitignore': Permission denied
+On branch master
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        ../../.gitignore
+        ../../git_practice.sublime-workspace
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+pecol@DESKTOP-477VM7L MINGW64 /c/Python/Week 8/git_practice/git_practice$/.gitignore (master)
+$ git log --pretty=oneline
+ad45bd2d3a2621903b1d73a7ebe163073f003d15 (HEAD -> master) Extended greeting.
+68e9f4c417c9bb4af11a0d1b7b37a0ddcb586ba3 My first commit
+da49ba65048db1eb35fb94bef2e7d7b64bb5b25f git_practice$ git init Initialized empty Git repository in git_practice/.git/ git_practice$
+975db0722201c9ef220dec210d3a1dced730aadf git_ practice$ git init Initialized empty Git repository in git_practice/.git/ git_practice$
+
+pecol@DESKTOP-477VM7L MINGW64 /c/Python/Week 8/git_practice/git_practice$/.gitignore (master)
+$ git status
+warning: unable to access 'git_practice$/.gitignore': Permission denied
+On branch master
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   ../hello_git.py
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        ../../.gitignore
+        ../../git_practice.sublime-workspace
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+pecol@DESKTOP-477VM7L MINGW64 /c/Python/Week 8/git_practice/git_practice$/.gitignore (master)
+$ got checkout .
+bash: got: command not found
+
+pecol@DESKTOP-477VM7L MINGW64 /c/Python/Week 8/git_practice/git_practice$/.gitignore (master)
+$ git checkout .
+error: pathspec '.' did not match any file(s) known to git
+
+pecol@DESKTOP-477VM7L MINGW64 /c/Python/Week 8/git_practice/git_practice$/.gitignore (master)
+$ git status
+warning: unable to access 'git_practice$/.gitignore': Permission denied
+On branch master
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   ../hello_git.py
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        ../../.gitignore
+        ../../git_practice.sublime-workspace
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+pecol@DESKTOP-477VM7L MINGW64 /c/Python/Week 8/git_practice/git_practice$/.gitignore (master)
+$ git log --pretty=online
+fatal: invalid --pretty format: online
+
+pecol@DESKTOP-477VM7L MINGW64 /c/Python/Week 8/git_practice/git_practice$/.gitignore (master)
+$ git log --pretty=oneline
+ad45bd2d3a2621903b1d73a7ebe163073f003d15 (HEAD -> master) Extended greeting.
+68e9f4c417c9bb4af11a0d1b7b37a0ddcb586ba3 My first commit
+da49ba65048db1eb35fb94bef2e7d7b64bb5b25f git_practice$ git init Initialized empty Git repository in git_practice/.git/ git_practice$
+975db0722201c9ef220dec210d3a1dced730aadf git_ practice$ git init Initialized empty Git repository in git_practice/.git/ git_practice$
+
+pecol@DESKTOP-477VM7L MINGW64 /c/Python/Week 8/git_practice/git_practice$/.gitignore (master)
+$ git status
+warning: unable to access 'git_practice$/.gitignore': Permission denied
+On branch master
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   ../hello_git.py
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        ../../.gitignore
+        ../../git_practice.sublime-workspace
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+pecol@DESKTOP-477VM7L MINGW64 /c/Python/Week 8/git_practice/git_practice$/.gitignore (master)
+$ git commit -am "Extended greeting."
+[master f8f5312] Extended greeting.
+ 1 file changed, 3 insertions(+), 1 deletion(-)
+
+pecol@DESKTOP-477VM7L MINGW64 /c/Python/Week 8/git_practice/git_practice$/.gitignore (master)
+$ git status
+warning: unable to access 'git_practice$/.gitignore': Permission denied
+On branch master
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        ../../.gitignore
+        ../../git_practice.sublime-workspace
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+pecol@DESKTOP-477VM7L MINGW64 /c/Python/Week 8/git_practice/git_practice$/.gitignore (master)
+$ got log --pretty=oneline
+bash: got: command not found
+
+pecol@DESKTOP-477VM7L MINGW64 /c/Python/Week 8/git_practice/git_practice$/.gitignore (master)
+$ git status
+warning: unable to access 'git_practice$/.gitignore': Permission denied
+On branch master
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        ../../.gitignore
+        ../../git_practice.sublime-workspace
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+pecol@DESKTOP-477VM7L MINGW64 /c/Python/Week 8/git_practice/git_practice$/.gitignore (master)
+$ git checkout .
+error: pathspec '.' did not match any file(s) known to git
+
+pecol@DESKTOP-477VM7L MINGW64 /c/Python/Week 8/git_practice/git_practice$/.gitignore (master)
+$ git status
+warning: unable to access 'git_practice$/.gitignore': Permission denied
+On branch master
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        ../../.gitignore
+        ../../git_practice.sublime-workspace
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+pecol@DESKTOP-477VM7L MINGW64 /c/Python/Week 8/git_practice/git_practice$/.gitignore (master)
+$ git log --pretty=oneline
+f8f531206f8585943c307e237508eb9b51d4a892 (HEAD -> master) Extended greeting.
+ad45bd2d3a2621903b1d73a7ebe163073f003d15 Extended greeting.
+68e9f4c417c9bb4af11a0d1b7b37a0ddcb586ba3 My first commit
+da49ba65048db1eb35fb94bef2e7d7b64bb5b25f git_practice$ git init Initialized empty Git repository in git_practice/.git/ git_practice$
+975db0722201c9ef220dec210d3a1dced730aadf git_ practice$ git init Initialized empty Git repository in git_practice/.git/ git_practice$
+
+pecol@DESKTOP-477VM7L MINGW64 /c/Python/Week 8/git_practice/git_practice$/.gitignore (master)
+$ git checkout ee7641
+error: pathspec 'ee7641' did not match any file(s) known to git
+
+pecol@DESKTOP-477VM7L MINGW64 /c/Python/Week 8/git_practice/git_practice$/.gitignore (master)
+$ git log --pretty=oneline
+f8f531206f8585943c307e237508eb9b51d4a892 (HEAD -> master) Extended greeting.
+ad45bd2d3a2621903b1d73a7ebe163073f003d15 Extended greeting.
+68e9f4c417c9bb4af11a0d1b7b37a0ddcb586ba3 My first commit
+da49ba65048db1eb35fb94bef2e7d7b64bb5b25f git_practice$ git init Initialized empty Git repository in git_practice/.git/ git_practice$
+975db0722201c9ef220dec210d3a1dced730aadf git_ practice$ git init Initialized empty Git repository in git_practice/.git/ git_practice$
+
+pecol@DESKTOP-477VM7L MINGW64 /c/Python/Week 8/git_practice/git_practice$/.gitignore (master)
+$ git checkout 68e9f4
+Note: switching to '68e9f4'.
+
+You are in 'detached HEAD' state. You can look around, make experimental
+changes and commit them, and you can discard any commits you make in this
+state without impacting any branches by switching back to a branch.
+
+If you want to create a new branch to retain commits you create, you may
+do so (now or later) by using -c with the switch command. Example:
+
+  git switch -c <new-branch-name>
+
+Or undo this operation with:
+
+  git switch -
+
+Turn off this advice by setting config variable advice.detachedHead to false
+
+HEAD is now at 68e9f4c My first commit
+
+pecol@DESKTOP-477VM7L MINGW64 /c/Python/Week 8/git_practice/git_practice$/.gitignore ((68e9f4c...))
+$ git checkout master
+Previous HEAD position was 68e9f4c My first commit
+Switched to branch 'master'
+
+pecol@DESKTOP-477VM7L MINGW64 /c/Python/Week 8/git_practice/git_practice$/.gitignore (master)
+$ git status
+warning: unable to access 'git_practice$/.gitignore': Permission denied
+On branch master
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        ../../.gitignore
+        ../../git_practice.sublime-workspace
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+pecol@DESKTOP-477VM7L MINGW64 /c/Python/Week 8/git_practice/git_practice$/.gitignore (master)
+$ git log --pretty=oneline
+f8f531206f8585943c307e237508eb9b51d4a892 (HEAD -> master) Extended greeting.
+ad45bd2d3a2621903b1d73a7ebe163073f003d15 Extended greeting.
+68e9f4c417c9bb4af11a0d1b7b37a0ddcb586ba3 My first commit
+da49ba65048db1eb35fb94bef2e7d7b64bb5b25f git_practice$ git init Initialized empty Git repository in git_practice/.git/ git_practice$
+975db0722201c9ef220dec210d3a1dced730aadf git_ practice$ git init Initialized empty Git repository in git_practice/.git/ git_practice$
+
+pecol@DESKTOP-477VM7L MINGW64 /c/Python/Week 8/git_practice/git_practice$/.gitignore (master)
+$ git reset --hard ^C
+
+pecol@DESKTOP-477VM7L MINGW64 /c/Python/Week 8/git_practice/git_practice$/.gitignore (master)
+$ git reset 68e9f4c
+Unstaged changes after reset:
+M       git_practice$/hello_git.py
+D       hello_git.py
+
+pecol@DESKTOP-477VM7L MINGW64 /c/Python/Week 8/git_practice/git_practice$/.gitignore (master)
+$ git status
+warning: unable to access 'git_practice$/.gitignore': Permission denied
+On branch master
+Changes not staged for commit:
+  (use "git add/rm <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   ../hello_git.py
+        deleted:    ../../hello_git.py
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        ../../.gitignore
+        ../../git_practice.sublime-workspace
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+pecol@DESKTOP-477VM7L MINGW64 /c/Python/Week 8/git_practice/git_practice$/.gitignore (master)
+$ git log --pretty=oneline
+68e9f4c417c9bb4af11a0d1b7b37a0ddcb586ba3 (HEAD -> master) My first commit
+da49ba65048db1eb35fb94bef2e7d7b64bb5b25f git_practice$ git init Initialized empty Git repository in git_practice/.git/ git_practice$
+975db0722201c9ef220dec210d3a1dced730aadf git_ practice$ git init Initialized empty Git repository in git_practice/.git/ git_practice$
+
+pecol@DESKTOP-477VM7L MINGW64 /c/Python/Week 8/git_practice/git_practice$/.gitignore (master)
+$
